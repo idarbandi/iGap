@@ -1,5 +1,13 @@
 from django.conf import settings
 from django.db import models
+from django.dispatch import receiver
+from django.shortcuts import get_object_or_404
+
+from server.models import Category, Server
+
+
+def category_icon_upload_path(instance, filename):
+    return f"category/{instance.id}/category_icon/{filename}"
 
 
 # تعریف یک مدل برای Category با یک نام و توضیحات اختیاری
@@ -16,6 +24,7 @@ class Category(models.Model):
     description = models.TextField(
         blank=True, null=True
     )  # Optional description of the category
+    icon = models.FileField(null=True, blank=True)
 
     def __str__(self):
         """
@@ -25,6 +34,20 @@ class Category(models.Model):
             str: نام دسته‌بندی.
         """
         return self.name  # Return the name of the category as its string representation
+
+    def save(self, *args, **kwargs):
+        if self.id:
+            existing = get_object_or_404(Category, id=self.id)
+            if existing.icon != self.icon:
+                existing.icon.delete(save=False)
+        super(Category, self).save(*args, **kwargs)
+
+    @receiver(models.signals.pre_delete, sender="server.Category")
+    def category_delete_files(sender, **kwargs):
+        for field in insance._meta.fields:
+            if field.name == 'icon':
+                file = getattr(instance, field.name)
+                file.delete(save=False)
 
 
 # تعریف یک مدل برای Server با فیلدها و ارتباطات مختلف
@@ -61,7 +84,7 @@ class Server(models.Model):
         Returns:
             str: نام سرور.
         """
-        return self.name  # Return the name of the server as its string representation
+        return f"{self.name}-{self.id}"  # Return the name of the server as its string representation
 
 
 # تعریف یک مدل برای Channel با فیلدها و ارتباطات مختلف

@@ -5,14 +5,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# مسیرهای داخل پروژه را مانند این بسازید: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG")
 ALLOWED_HOSTS = []
 
-# Application definition
+# تعریف برنامه‌ها
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -21,15 +21,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # External Apps
+    # برنامه‌های خارجی
     "drf_spectacular",
-    "drf_spectacular_sidecar",  # required for Django collectstatic discovery
+    "drf_spectacular_sidecar",  # برای کشف Django collectstatic لازم است
     "rest_framework",
-    # Internal Apps
+    # برنامه‌های داخلی
     "account",
     "server",
 ]
-
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -62,7 +61,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "backend.wsgi.application"
 
 
-# Database
+# پایگاه داده
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
@@ -72,8 +71,7 @@ DATABASES = {
     }
 }
 
-
-# Password validation
+# اعتبارسنجی رمز عبور
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -92,7 +90,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
+# بین‌المللی‌سازی
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 LANGUAGE_CODE = "en-us"
@@ -104,12 +102,14 @@ USE_I18N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+# فایل‌های استاتیک (CSS، جاوا اسکریپت، تصاویر)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = "static/"
+MEDIA_ROOT = os.path.join(BASE_DIR, )
+MEDIA_URL = "media/"
 
-# Default primary key field type
+# نوع فیلد کلید اصلی پیش‌فرض
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
@@ -117,15 +117,15 @@ AUTH_USER_MODEL = "account.Account"
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-    # "DEFAULT_AUTHENTICATION_CLASSES" : {
-    #     "rest_framework.authentication.SessionAuthentication"
-    # }
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.SessionAuthentication",
+    ],
 }
 
-# Swagger UI Metadata
+# Metadata رابط کاربری Swagger
 SPECTACULAR_SETTINGS = {
     "SWAGGER_UI_DIST": "SIDECAR",  # shorthand to use the sidecar instead
     "SWAGGER_UI_FAVICON_HREF": "SIDECAR",
     "REDOC_DIST": "SIDECAR",
-    # OTHER SETTINGS
+    # تنظیمات دیگر
 }
