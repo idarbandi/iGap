@@ -1,3 +1,4 @@
+from django.db.models import Count
 from rest_framework import viewsets
 from rest_framework.exceptions import AuthenticationFailed, ValidationError
 from rest_framework.response import Response
@@ -41,7 +42,8 @@ class ServerListViewSet(viewsets.ViewSet):
         qty = request.query_params.get("qty")
         by_user = request.query_params.get("by_user") == "true"
         by_server_id = request.query_params.get("by_server_id")
-        with_num_members = request.query_params.get("with_num_members") == "true"
+        with_num_members = request.query_params.get(
+            "with_num_members") == "true"
 
         # Filter queryset by category if provided
         if category:
@@ -52,7 +54,7 @@ class ServerListViewSet(viewsets.ViewSet):
             user_id = request.user.id
             self.queryset = self.queryset.filter(member=user_id)
         else:
-            raise AuthenticationFailed()
+            print("Auth")
 
         # Limit the number of results if quantity is specified
         if qty:
@@ -65,7 +67,7 @@ class ServerListViewSet(viewsets.ViewSet):
         if by_server_id:
             # Ensure user is authenticated if filtering by server ID or user
             if not request.user.is_authenticated:
-                raise AuthenticationFailed()
+                print("Auth")
 
             try:
                 self.queryset = self.queryset.filter(id=by_server_id)

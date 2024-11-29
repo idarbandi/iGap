@@ -4,6 +4,7 @@
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.autoIndent": "full",
     "editor.foldingImportsByDefault": true,
+    "editor.fontFamily": "'Cascadia Code', 'Cascadia Code', 'Cascadia Code', 'Cascadia Code', 'Cascadia Code', 'Cascadia Code'",
     "python.formatting.provider": "black",
     "python.formatting.blackargs": [
         "--line-length",
@@ -22,7 +23,8 @@
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
-        }
+        },
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
 
 }

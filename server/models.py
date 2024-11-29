@@ -3,11 +3,19 @@ from django.db import models
 from django.dispatch import receiver
 from django.shortcuts import get_object_or_404
 
-from server.models import Category, Server
+from .validators import icon_image_size_validator, image_file_extension_validator
 
 
 def category_icon_upload_path(instance, filename):
     return f"category/{instance.id}/category_icon/{filename}"
+
+
+def server_banner_upload_path(instance, filename):
+    return f"category/{instance.id}/server_banner/{filename}"
+
+
+def server_icon_upload_path(instance, filename):
+    return f"category/{instance.id}/server_icon/{filename}"
 
 
 # تعریف یک مدل برای Category با یک نام و توضیحات اختیاری
@@ -24,7 +32,7 @@ class Category(models.Model):
     description = models.TextField(
         blank=True, null=True
     )  # Optional description of the category
-    icon = models.FileField(null=True, blank=True)
+    icon = models.FileField(upload_to=category_icon_upload_path, null=True, blank=True)
 
     def __str__(self):
         """
@@ -45,7 +53,7 @@ class Category(models.Model):
     @receiver(models.signals.pre_delete, sender="server.Category")
     def category_delete_files(sender, **kwargs):
         for field in insance._meta.fields:
-            if field.name == 'icon':
+            if field.name == "icon":
                 file = getattr(instance, field.name)
                 file.delete(save=False)
 
@@ -107,17 +115,35 @@ class Channel(models.Model):
     server = models.ForeignKey(
         Server, on_delete=models.CASCADE, related_name="channel_server"
     )  # Server to which the channel belongs
+    banner = models.ImageField(
+        upload_to=server_banner_upload_path,
+        null=True,
+        blank=True,
+        validators=[image_file_extension_validator],
+    )
+    icon = models.ImageField(
+        upload_to=server_banner_upload_path,
+        null=True,
+        blank=True,
+        validators=[icon_image_size_validator, image_file_extension_validator],
+    )
 
     def save(self, *args, **kwargs):
-        """
-        ذخیره نام کانال به صورت حروف کوچک قبل از ذخیره‌سازی.
-
-        Args:
-            *args: آرگومان‌های موقعیتی.
-            **kwargs: آرگومان‌های کلیدی.
-        """
+        if self.id:
+            existing = get_object_or_404(Category, id=self.id)
+            if existing.icon != self.icon:
+                existing.icon.delete(save=False)
+            if existing.banner != self.banner:
+                existing.banner.delete(save=False)
         self.name = self.name.lower()
-        super(Channel, self).save(*args, **kwargs)
+        super(Category, self).save(*args, **kwargs)
+
+    @receiver(models.signals.pre_delete, sender="server.Server")
+    def category_delete_files(sender, **kwargs):
+        for field in insance._meta.fields:
+            if field.name == "icon" and field.name == "banner":
+                file = getattr(instance, field.name)
+                file.delete(save=False)
 
     def __str__(self):
         """
