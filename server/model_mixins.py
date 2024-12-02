@@ -1,7 +1,7 @@
 from django.db import models
+from django.dispatch import receiver
 from django.shortcuts import get_object_or_404
-from django.dispatch import receiver
-from django.dispatch import receiver
+
 
 class IconFileMixin(models.Model):
     class Meta:

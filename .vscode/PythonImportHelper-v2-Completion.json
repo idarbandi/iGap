@@ -576,14 +576,6 @@
         "documentation": {}
     },
     {
-        "label": "receiver",
-        "importPath": "django.dispatch",
-        "description": "django.dispatch",
-        "isExtraImport": true,
-        "detail": "django.dispatch",
-        "documentation": {}
-    },
-    {
         "label": "OpenApiTypes",
         "importPath": "drf_spectacular.types",
         "description": "drf_spectacular.types",
