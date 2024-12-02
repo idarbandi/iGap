@@ -1,6 +1,5 @@
 from django.contrib import admin
-
-from .models import Category, Channel, Server
+from server.models import *
 
 admin.site.register(Channel)
 admin.site.register(Server)
