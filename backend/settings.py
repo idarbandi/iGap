@@ -1,4 +1,5 @@
 import os
+from datetime import timedelta
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -22,23 +23,28 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # برنامه‌های خارجی
-    "drf_spectacular",
-    "drf_spectacular_sidecar",  # برای کشف Django collectstatic لازم است
+    'drf_spectacular',
     "rest_framework",
+    'django_filters',
+    "corsheaders",
+    'rest_framework_simplejwt',
     # برنامه‌های داخلی
     "account",
     "server",
+    "webchat"
 ]
 
 MIDDLEWARE = [
-    "django.middleware.security.SecurityMiddleware",
-    "django.contrib.sessions.middleware.SessionMiddleware",
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
-    "django.contrib.auth.middleware.AuthenticationMiddleware",
-    "django.contrib.messages.middleware.MessageMiddleware",
-    "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = "backend.urls"
 
@@ -105,8 +111,9 @@ USE_TZ = True
 # فایل‌های استاتیک (CSS، جاوا اسکریپت، تصاویر)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = "static/"
-MEDIA_ROOT = os.path.join(BASE_DIR, )
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_URL = 'static/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "media/"
 
 # نوع فیلد کلید اصلی پیش‌فرض
@@ -116,10 +123,18 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "account.Account"
 
 REST_FRAMEWORK = {
+    # YOUR SETTINGS
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.BasicAuthentication",
+        # "rest_framework.authentication.SessionAuthentication",
+        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
+        "account.authenticate.JWTCookieAuthentication"
+
     ],
+    # 'DEFAULT_FILTER_BACKENDS': [
+    #     'django_filters.rest_framework.DjangoFilterBackend',
+    #     # 'rest_framework.filters.OrderingFilter',  # Можно добавить и другие фильтры по вашему выбору.
+    # ],
 }
 
 # Metadata رابط کاربری Swagger
@@ -128,4 +143,26 @@ SPECTACULAR_SETTINGS = {
     "SWAGGER_UI_FAVICON_HREF": "SIDECAR",
     "REDOC_DIST": "SIDECAR",
     # تنظیمات دیگر
+}
+
+# CORS_ALLOWED_ORIGINS = [
+#     "http://127.0.0.1:5173",
+#     "htts://localhost:5173"
+# ]
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
+}
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(seconds=10),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=30),  # - every 30 days relogin
+    # JWTCookie
+    "ACCESS_TOKEN_NAME": "access_token",
+    "REFRESH_TOKEN_NAME": "refresh_token",
+    "JWT_COOKIE_SAMESITE": "Lax"
 }

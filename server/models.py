@@ -3,7 +3,8 @@ from django.db import models
 from django.dispatch import receiver
 from django.shortcuts import get_object_or_404
 
-from .validators import icon_image_size_validator, image_file_extension_validator
+from .validators import (icon_image_size_validator,
+                         image_file_extension_validator)
 
 
 def category_icon_upload_path(instance, filename):
@@ -32,7 +33,8 @@ class Category(models.Model):
     description = models.TextField(
         blank=True, null=True
     )  # Optional description of the category
-    icon = models.FileField(upload_to=category_icon_upload_path, null=True, blank=True)
+    icon = models.FileField(
+        upload_to=category_icon_upload_path, null=True, blank=True)
 
     def __str__(self):
         """
@@ -84,6 +86,10 @@ class Server(models.Model):
     member = models.ManyToManyField(
         settings.AUTH_USER_MODEL
     )  # Members associated with the server
+    banner = models.ImageField(upload_to=server_banner_upload_path,
+                               null=True,
+                               blank=True,
+                               validators=[validate_image_file_extension])
 
     def __str__(self):
         """
@@ -115,12 +121,6 @@ class Channel(models.Model):
     server = models.ForeignKey(
         Server, on_delete=models.CASCADE, related_name="channel_server"
     )  # Server to which the channel belongs
-    banner = models.ImageField(
-        upload_to=server_banner_upload_path,
-        null=True,
-        blank=True,
-        validators=[image_file_extension_validator],
-    )
     icon = models.ImageField(
         upload_to=server_banner_upload_path,
         null=True,

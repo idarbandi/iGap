@@ -4,17 +4,18 @@ from django.core.exceptions import ValidationError
 from PIL import Image
 
 
-def icon_image_size_validator(image):
+def validate_icon_image_size(image):
     if image:
         with Image.open(image) as img:
-            if img.height > 70 or img.width > 70:
+            if img.width > 70 or img.height > 70:
                 raise ValidationError(
-                    f"The Maximun Allowed Dimensions For The Image Are 70x70 - The Image You Have Uploaded is f{image.size}"
+                    f"The maximum allowed size is 70x70. Your size = {img.size}"
                 )
 
 
-def image_file_extension_validator(value):
+def validate_image_file_extension(value):
     ext = os.path.splitext(value.name)[1]
     valid_extensions = ['.jpg', '.jpeg', '.png', '.gif']
     if not ext.lower() in valid_extensions:
-        raise ValidationError('Unsupported File Extensions')
+        raise ValidationError(
+            f"Your extension must be one of {valid_extensions}, but got {ext}")
