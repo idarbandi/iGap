@@ -155,6 +155,158 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidToken",
+        "importPath": "rest_framework_simplejwt.exceptions",
+        "description": "rest_framework_simplejwt.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -211,11 +363,99 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "JWTAuthentication",
+        "importPath": "rest_framework_simplejwt.authentication",
+        "description": "rest_framework_simplejwt.authentication",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "rest_framework_simplejwt.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiTypes",
+        "importPath": "drf_spectacular.types",
+        "description": "drf_spectacular.types",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.types",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiTypes",
+        "importPath": "drf_spectacular.types",
+        "description": "drf_spectacular.types",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.types",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiTypes",
+        "importPath": "drf_spectacular.types",
+        "description": "drf_spectacular.types",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.types",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiParameter",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema_field",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiParameter",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiParameter",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
         "documentation": {}
     },
     {
@@ -235,35 +475,83 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.test",
         "documentation": {}
     },
     {
-        "label": "get_object_or_404",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "rest_framework.permissions",
         "documentation": {}
     },
     {
-        "label": "get_object_or_404",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
         "documentation": {}
     },
     {
@@ -305,46 +593,6 @@
         "description": "dotenv",
         "isExtraImport": true,
         "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -393,22 +641,6 @@
         "description": "rest_framework.routers",
         "isExtraImport": true,
         "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "TokenObtainPairView",
-        "importPath": "rest_framework_simplejwt.views",
-        "description": "rest_framework_simplejwt.views",
-        "isExtraImport": true,
-        "detail": "rest_framework_simplejwt.views",
-        "documentation": {}
-    },
-    {
-        "label": "TokenRefreshView",
-        "importPath": "rest_framework_simplejwt.views",
-        "description": "rest_framework_simplejwt.views",
-        "isExtraImport": true,
-        "detail": "rest_framework_simplejwt.views",
         "documentation": {}
     },
     {
@@ -664,99 +896,27 @@
         "documentation": {}
     },
     {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
+        "label": "category",
+        "importPath": "server.serializers",
+        "description": "server.serializers",
         "isExtraImport": true,
-        "detail": "rest_framework",
+        "detail": "server.serializers",
         "documentation": {}
     },
     {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
+        "label": "channel",
+        "importPath": "server.serializers",
+        "description": "server.serializers",
         "isExtraImport": true,
-        "detail": "rest_framework",
+        "detail": "server.serializers",
         "documentation": {}
     },
     {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
+        "label": "server",
+        "importPath": "server.serializers",
+        "description": "server.serializers",
         "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "permissions",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "extend_schema_field",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "OpenApiParameter",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "extend_schema",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "extend_schema",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "extend_schema",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "OpenApiParameter",
-        "importPath": "drf_spectacular.utils",
-        "description": "drf_spectacular.utils",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ChannelSerializer",
-        "importPath": "server.serializers.channel",
-        "description": "server.serializers.channel",
-        "isExtraImport": true,
-        "detail": "server.serializers.channel",
+        "detail": "server.serializers",
         "documentation": {}
     },
     {
@@ -776,19 +936,27 @@
         "documentation": {}
     },
     {
-        "label": "OpenApiTypes",
-        "importPath": "drf_spectacular.types",
-        "description": "drf_spectacular.types",
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "drf_spectacular.types",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
-        "label": "OpenApiTypes",
-        "importPath": "drf_spectacular.types",
-        "description": "drf_spectacular.types",
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "drf_spectacular.types",
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -813,22 +981,6 @@
         "description": "rest_framework.decorators",
         "isExtraImport": true,
         "detail": "rest_framework.decorators",
-        "documentation": {}
-    },
-    {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
-        "documentation": {}
-    },
-    {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -940,6 +1092,42 @@
         "documentation": {}
     },
     {
+        "label": "AccountSerializer",
+        "kind": 6,
+        "importPath": "account.serializers.account",
+        "description": "account.serializers.account",
+        "peekOfCode": "class AccountSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Account\n        fields = (\"username\",)\nclass CustomTokenObtainPairSerializer(TokenObtainPairSerializer):\n    def get_token(cls, user):\n        token = super().get_token(user)\n        token[\"example\"] = \"example\"\n        return token\n    def validate(self, attrs):",
+        "detail": "account.serializers.account",
+        "documentation": {}
+    },
+    {
+        "label": "CustomTokenObtainPairSerializer",
+        "kind": 6,
+        "importPath": "account.serializers.account",
+        "description": "account.serializers.account",
+        "peekOfCode": "class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):\n    def get_token(cls, user):\n        token = super().get_token(user)\n        token[\"example\"] = \"example\"\n        return token\n    def validate(self, attrs):\n        data = super().validate(attrs)\n        data[\"user_id\"] = self.user.id\n        return data\nclass JWTCookieTokenRefreshSerializer(TokenRefreshSerializer):",
+        "detail": "account.serializers.account",
+        "documentation": {}
+    },
+    {
+        "label": "JWTCookieTokenRefreshSerializer",
+        "kind": 6,
+        "importPath": "account.serializers.account",
+        "description": "account.serializers.account",
+        "peekOfCode": "class JWTCookieTokenRefreshSerializer(TokenRefreshSerializer):\n    refresh = None\n    def validate(self, attrs):\n        attrs[\"refresh\"] = self.context[\"request\"].COOKIES.get(\n            settings.SIMPLE_JWT[\"REFRESH_TOKEN_NAME\"]\n        )\n        print(self.context[\"request\"])\n        if attrs[\"refresh\"]:\n            return super().validate(attrs)\n        else:",
+        "detail": "account.serializers.account",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "account.serializers.account",
+        "description": "account.serializers.account",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Account\n        fields = (\"username\", \"password\")\n    def is_valid(self, *, raise_exception=False):\n        valid = super().is_valid(raise_exception=raise_exception)\n        if valid:\n            username = self.validated_data[\"username\"]\n            if Account.objects.filter(username=username).exists():\n                self._errors[\"username\"] = [\"username already exists\"]",
+        "detail": "account.serializers.account",
+        "documentation": {}
+    },
+    {
         "label": "AccountConfig",
         "kind": 6,
         "importPath": "account.apps",
@@ -949,12 +1137,84 @@
         "documentation": {}
     },
     {
+        "label": "JWTCookieAuthentication",
+        "kind": 6,
+        "importPath": "account.authenticate",
+        "description": "account.authenticate",
+        "peekOfCode": "class JWTCookieAuthentication(JWTAuthentication):\n    def authenticate(self, request):\n        raw_token = (\n            request.COOKIES.get(settings.SIMPLE_JWT[\"ACCESS_TOKEN_NAME\"]) or None\n        )\n        print(raw_token)\n        if raw_token is None:\n            return None\n        validated_token = self.get_validated_token(raw_token)\n        return self.get_user(validated_token), validated_token",
+        "detail": "account.authenticate",
+        "documentation": {}
+    },
+    {
         "label": "Account",
         "kind": 6,
         "importPath": "account.models",
         "description": "account.models",
         "peekOfCode": "class Account(AbstractUser):\n    pass",
         "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_list_docs",
+        "kind": 5,
+        "importPath": "account.schemas",
+        "description": "account.schemas",
+        "peekOfCode": "user_list_docs = extend_schema(\n    responses=AccountSerializer(),\n    parameters=[\n        OpenApiParameter(\n            name=\"user_id\",\n            type=OpenApiTypes.INT,\n            location=OpenApiParameter.QUERY,\n            description=\"User ID\",\n        ),\n    ],",
+        "detail": "account.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class RegisterView(APIView):\n    def post(self, request):\n        serializer = RegisterSerializer(data=request.data)\n        if serializer.is_valid():\n            username = serializer.validated_data[\"username\"]\n            forbidden_usernames = [\"admin\", \"root\", \"superuser\"]\n            if username is forbidden_usernames:\n                return Response({\"error\": \"Username not allowed\"}, status=status.HTTP_409_CONFLICT)\n            serializer.save()\n            return Response(serializer.data, status=status.HTTP_201_CREATED)",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogOutAPIView",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class LogOutAPIView(APIView):\n    def post(self, request, format=None):\n        response = Response(\"Logged out successfully\")\n        response.set_cookie(\"refresh_token\", \"\", expires=0)\n        response.set_cookie(\"access_token\", \"\", expires=0)\n        return response\nclass AccountViewSet(viewsets.ViewSet):\n    queryset = Account.objects.all()\n    permission_classes = [IsAuthenticated]\n    @user_list_docs",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "AccountViewSet",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class AccountViewSet(viewsets.ViewSet):\n    queryset = Account.objects.all()\n    permission_classes = [IsAuthenticated]\n    @user_list_docs\n    def list(self, request):\n        user_id = request.query_params.get(\"user_id\")\n        queryset = Account.objects.get(id=user_id)\n        serializer = AccountSerializer(queryset)\n        return Response(serializer.data)\nclass JWTSetCookieMixin:",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "JWTSetCookieMixin",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class JWTSetCookieMixin:\n    def finalize_response(self, request, response, *args, **kwargs):\n        if response.data.get(\"refresh\"):\n            response.set_cookie(\n                settings.SIMPLE_JWT[\"REFRESH_TOKEN_NAME\"],\n                response.data[\"refresh\"],\n                max_age=settings.SIMPLE_JWT[\"REFRESH_TOKEN_LIFETIME\"],\n                httponly=True,\n                samesite=settings.SIMPLE_JWT[\"JWT_COOKIE_SAMESITE\"],\n            )",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "JWTCookieTokenObtainPairView",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class JWTCookieTokenObtainPairView(JWTSetCookieMixin, TokenObtainPairView):\n    serializer_class = CustomTokenObtainPairSerializer\nclass JWTCookieTokenRefreshView(JWTSetCookieMixin, TokenRefreshView):\n    serializer_class = JWTCookieTokenRefreshSerializer",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "JWTCookieTokenRefreshView",
+        "kind": 6,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "class JWTCookieTokenRefreshView(JWTSetCookieMixin, TokenRefreshView):\n    serializer_class = JWTCookieTokenRefreshSerializer",
+        "detail": "account.views",
         "documentation": {}
     },
     {
@@ -1475,7 +1735,7 @@
         "kind": 6,
         "importPath": "server.serializers.server",
         "description": "server.serializers.server",
-        "peekOfCode": "class ServerSerializer(serializers.ModelSerializer):\n    num_members = serializers.SerializerMethodField()\n    channel_server = ChannelSerializer(many=True)\n    category = serializers.StringRelatedField()\n    class Meta:\n        model = Server\n        exclude = [\"member\", ]\n    @extend_schema_field(serializers.IntegerField())\n    def get_num_members(self, obj):\n        if hasattr(obj, \"num_members\"):",
+        "peekOfCode": "class ServerSerializer(serializers.ModelSerializer):\n    num_members = serializers.SerializerMethodField()\n    category = serializers.StringRelatedField()\n    class Meta:\n        model = Server\n        exclude = [\"member\", ]\n    @extend_schema_field(serializers.IntegerField())\n    def get_num_members(self, obj):\n        if hasattr(obj, \"num_members\"):\n            return obj.num_members",
         "detail": "server.serializers.server",
         "documentation": {}
     },
@@ -1556,7 +1816,7 @@
         "kind": 5,
         "importPath": "server.schema",
         "description": "server.schema",
-        "peekOfCode": "server_list_docs = extend_schema(responses=ServerSerializer(many=True), parameters=[\n    OpenApiParameter(\n        name='category',\n        type=OpenApiTypes.STR,\n        description='category of formats for your needs'\n    ),\n    OpenApiParameter(\n        name='qty',\n        type=OpenApiTypes.INT,\n        location='openAPIParameter.QUERY',",
+        "peekOfCode": "server_list_docs = extend_schema(\n    responses=ServerSerializer(many=True),\n    parameters=[\n        OpenApiParameter(\n            name=\"category\",\n            type=OpenApiTypes.STR,\n            location=OpenApiParameter.QUERY,\n            description=\"Category of servers to retrive\",\n        ),\n        OpenApiParameter(",
         "detail": "server.schema",
         "documentation": {}
     },

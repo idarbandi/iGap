@@ -3,8 +3,7 @@ from django.db import models
 from django.dispatch import receiver
 from django.shortcuts import get_object_or_404
 
-from .validators import (icon_image_size_validator,
-                         image_file_extension_validator)
+from .validators import validate_icon_image_size, validate_image_file_extension
 
 
 def category_icon_upload_path(instance, filename):
@@ -125,7 +124,7 @@ class Channel(models.Model):
         upload_to=server_banner_upload_path,
         null=True,
         blank=True,
-        validators=[icon_image_size_validator, image_file_extension_validator],
+        validators=[validate_icon_image_size, validate_image_file_extension],
     )
 
     def save(self, *args, **kwargs):

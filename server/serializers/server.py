@@ -2,13 +2,13 @@ from drf_spectacular.utils import extend_schema_field
 from rest_framework import serializers
 
 from server.models import Server
+from server.serializers import category, channel, server
 
-from server.serializers.channel import ChannelSerializer
 
 class ServerSerializer(serializers.ModelSerializer):
     num_members = serializers.SerializerMethodField()
-    channel_server = ChannelSerializer(many=True)
     category = serializers.StringRelatedField()
+
     class Meta:
         model = Server
         exclude = ["member", ]
