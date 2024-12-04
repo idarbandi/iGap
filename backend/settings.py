@@ -1,8 +1,24 @@
-import os
-from datetime import timedelta
-from pathlib import Path
+"""
+███████╗ ██████╗  █████╗ ██████╗     ██╗██╗   ██╗ █████╗ ██████╗ 
+██╔════╝██╔════╝ ██╔══██╗██╔══██╗    ██║██║   ██║██╔══██╗██╔══██╗
+███████╗██║  ███╗███████║██████╔╝    ██║██║   ██║███████║██████╔╝
+╚════██║██║   ██║██╔══██║██╔═══╝     ██║██║   ██║██╔══██║██╔═══╝ 
+███████║╚██████╔╝██║  ██║██║         ██║╚██████╔╝██║  ██║██║     
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝         ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     
+"""
+
+"""
+این تنظیمات اصلی برنامه Django به نام iGap است.
+این کامنت‌ها و داک‌استرینگ‌ها توسط Idarbandi اضافه شده‌اند.
+برای پشتیبانی بیشتر لطفاً با من تماس بگیرید: darbandidr99@gmail.com
+GitHub: https://github.com/idarbandi/
+"""
 
 from dotenv import load_dotenv
+from pathlib import Path
+import os
+from datetime import timedelta
+
 
 load_dotenv()
 
@@ -44,7 +60,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
 
 ROOT_URLCONF = "backend.urls"
 
@@ -123,17 +138,16 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "account.Account"
 
 REST_FRAMEWORK = {
-    # YOUR SETTINGS
+    # تنظیمات شما
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     "DEFAULT_AUTHENTICATION_CLASSES": [
         # "rest_framework.authentication.SessionAuthentication",
         # 'rest_framework_simplejwt.authentication.JWTAuthentication',
         "account.authenticate.JWTCookieAuthentication"
-
     ],
     # 'DEFAULT_FILTER_BACKENDS': [
     #     'django_filters.rest_framework.DjangoFilterBackend',
-    #     # 'rest_framework.filters.OrderingFilter',  # Можно добавить и другие фильтры по вашему выбору.
+    #     # 'rest_framework.filters.OrderingFilter',  # می‌توانید فیلترهای دیگر نیز اضافه کنید.
     # ],
 }
 

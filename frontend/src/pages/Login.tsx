@@ -1,11 +1,23 @@
+/**
+ * These comments and docstrings were added by Idarbandi.
+ * For further support, please contact me at: darbandidr99@gmail.com
+ * GitHub: https://github.com/idarbandi/
+ */
+
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import { useAuthServiceContext } from "../context/AuthContext.tsx";
 import { Box, Button, Container, TextField, Typography } from "@mui/material";
 
-const Login = () => {
+/**
+ * Login component that handles user login functionality.
+ *
+ * @returns {JSX.Element} The Login component.
+ */
+const Login = (): JSX.Element => {
   const { login } = useAuthServiceContext();
   const navigate = useNavigate();
+  
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -35,6 +47,7 @@ const Login = () => {
       }
     },
   });
+
   return (
     <Container component="main" maxWidth="xs">
       <Box

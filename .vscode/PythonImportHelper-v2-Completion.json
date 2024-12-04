@@ -1,176 +1,5 @@
 [
     {
-        "label": "django.contrib.auth.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AnonymousUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "django.contrib.auth.validators",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.validators",
-        "description": "django.contrib.auth.validators",
-        "detail": "django.contrib.auth.validators",
-        "documentation": {}
-    },
-    {
-        "label": "django.utils.timezone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -368,6 +197,54 @@
         "description": "rest_framework_simplejwt.authentication",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnonymousUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -572,11 +449,11 @@
         "documentation": {}
     },
     {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -588,59 +465,43 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "static",
-        "importPath": "django.conf.urls.static",
-        "description": "django.conf.urls.static",
+        "label": "MessageViewSet",
+        "importPath": "webchat.views",
+        "description": "webchat.views",
         "isExtraImport": true,
-        "detail": "django.conf.urls.static",
+        "detail": "webchat.views",
         "documentation": {}
     },
     {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "WebChatConsumer",
+        "importPath": "webchat.consumer",
+        "description": "webchat.consumer",
         "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "webchat.consumer",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "CategoryListView",
+        "importPath": "server.views",
+        "description": "server.views",
         "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "server.views",
         "documentation": {}
     },
     {
-        "label": "SpectacularAPIView",
-        "importPath": "drf_spectacular.views",
-        "description": "drf_spectacular.views",
+        "label": "ServerListView",
+        "importPath": "server.views",
+        "description": "server.views",
         "isExtraImport": true,
-        "detail": "drf_spectacular.views",
-        "documentation": {}
-    },
-    {
-        "label": "SpectacularSwaggerView",
-        "importPath": "drf_spectacular.views",
-        "description": "drf_spectacular.views",
-        "isExtraImport": true,
-        "detail": "drf_spectacular.views",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
+        "detail": "server.views",
         "documentation": {}
     },
     {
@@ -684,35 +545,51 @@
         "documentation": {}
     },
     {
-        "label": "CategoryListView",
-        "importPath": "server.views",
-        "description": "server.views",
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
         "isExtraImport": true,
-        "detail": "server.views",
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
-        "label": "ServerListView",
-        "importPath": "server.views",
-        "description": "server.views",
+        "label": "SpectacularAPIView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
         "isExtraImport": true,
-        "detail": "server.views",
+        "detail": "drf_spectacular.views",
         "documentation": {}
     },
     {
-        "label": "WebChatConsumer",
-        "importPath": "webchat.consumer",
-        "description": "webchat.consumer",
+        "label": "SpectacularSwaggerView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
         "isExtraImport": true,
-        "detail": "webchat.consumer",
+        "detail": "drf_spectacular.views",
         "documentation": {}
     },
     {
-        "label": "MessageViewSet",
-        "importPath": "webchat.views",
-        "description": "webchat.views",
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "webchat.views",
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
         "documentation": {}
     },
     {
@@ -765,15 +642,7 @@
         "documentation": {}
     },
     {
-        "label": "FilterSet",
-        "importPath": "django_filters",
-        "description": "django_filters",
-        "isExtraImport": true,
-        "detail": "django_filters",
-        "documentation": {}
-    },
-    {
-        "label": "NumericRangeFilter",
+        "label": "BooleanFilter",
         "importPath": "django_filters",
         "description": "django_filters",
         "isExtraImport": true,
@@ -789,6 +658,14 @@
         "documentation": {}
     },
     {
+        "label": "FilterSet",
+        "importPath": "django_filters",
+        "description": "django_filters",
+        "isExtraImport": true,
+        "detail": "django_filters",
+        "documentation": {}
+    },
+    {
         "label": "NumberFilter",
         "importPath": "django_filters",
         "description": "django_filters",
@@ -797,7 +674,7 @@
         "documentation": {}
     },
     {
-        "label": "BooleanFilter",
+        "label": "NumericRangeFilter",
         "importPath": "django_filters",
         "description": "django_filters",
         "isExtraImport": true,
@@ -826,15 +703,6 @@
         "description": "rest_framework.exceptions",
         "isExtraImport": true,
         "detail": "rest_framework.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "server.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "server.models",
-        "description": "server.models",
-        "detail": "server.models",
         "documentation": {}
     },
     {
@@ -875,24 +743,6 @@
         "description": "server.models",
         "isExtraImport": true,
         "detail": "server.models",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
-        "label": "server.validators",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "server.validators",
-        "description": "server.validators",
-        "detail": "server.validators",
         "documentation": {}
     },
     {
@@ -1080,15 +930,6 @@
         "description": "channels.db",
         "isExtraImport": true,
         "detail": "channels.db",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0001_initial",
-        "description": "account.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"auth\", \"0012_alter_user_first_name_max_length\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Account\",\n            fields=[\n                (",
-        "detail": "account.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -1366,7 +1207,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1375,7 +1216,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',",
+        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1384,7 +1225,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\nMEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1393,7 +1234,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "MEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",",
+        "peekOfCode": "MEDIA_URL = \"media/\"\n# نوع فیلد کلید اصلی پیش‌فرض\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1402,7 +1243,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nAUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1411,7 +1252,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "AUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],\n    # 'DEFAULT_FILTER_BACKENDS': [",
+        "peekOfCode": "AUTH_USER_MODEL = \"account.Account\"\nREST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],\n    # 'DEFAULT_FILTER_BACKENDS': [",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1420,7 +1261,7 @@
         "kind": 5,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    # YOUR SETTINGS\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],\n    # 'DEFAULT_FILTER_BACKENDS': [\n    #     'django_filters.rest_framework.DjangoFilterBackend',",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # تنظیمات شما\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        # \"rest_framework.authentication.SessionAuthentication\",\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n        \"account.authenticate.JWTCookieAuthentication\"\n    ],\n    # 'DEFAULT_FILTER_BACKENDS': [\n    #     'django_filters.rest_framework.DjangoFilterBackend',",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -1474,7 +1315,7 @@
         "kind": 5,
         "importPath": "backend.urls",
         "description": "backend.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(r\"server\", ServerListView, basename=\"server-list\")\nrouter.register(\"category\", CategoryListView, basename=\"category-list\")\nrouter.register(\"messages\", MessageViewSet, basename=\"message-list\")\nrouter.register(\"users\", AccountViewSet, basename=\"account-list\")\nurlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/docs/schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"api/docs/schema/ui/\", SpectacularSwaggerView.as_view()),\n    path(",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r\"server\", ServerListView, basename=\"server-list\")\nrouter.register(\"category\", CategoryListView, basename=\"category-list\")\nrouter.register(\"messages\", MessageViewSet, basename=\"message-list\")\nrouter.register(\"users\", AccountViewSet, basename=\"account-list\")\nurlpatterns = [\n    path(\"admin/\", admin.site.urls),  # مسیر پنل مدیریت\n    path(\"api/docs/schema/\", SpectacularAPIView.as_view(),\n         name=\"schema\"),  # مستندسازی API\n    # رابط کاربری Swagger",
         "detail": "backend.urls",
         "documentation": {}
     },
@@ -1483,7 +1324,7 @@
         "kind": 5,
         "importPath": "backend.urls",
         "description": "backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/docs/schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"api/docs/schema/ui/\", SpectacularSwaggerView.as_view()),\n    path(\n        \"api/\",\n        include(\n            [\n                path(\"\", include(router.urls)),\n            ]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),  # مسیر پنل مدیریت\n    path(\"api/docs/schema/\", SpectacularAPIView.as_view(),\n         name=\"schema\"),  # مستندسازی API\n    # رابط کاربری Swagger\n    path(\"api/docs/schema/ui/\", SpectacularSwaggerView.as_view()),\n    path(\n        \"api/\",\n        include(\n            [",
         "detail": "backend.urls",
         "documentation": {}
     },
@@ -1492,7 +1333,7 @@
         "kind": 5,
         "importPath": "backend.urls",
         "description": "backend.urls",
-        "peekOfCode": "websocket_urlpatterns = [\n    path(\"<str:serverId>/<str:channelId>\", WebChatConsumer.as_asgi())\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,\n                          document_root=settings.MEDIA_ROOT)\n    urlpatterns += static(settings.STATIC_URL,\n                          document_root=settings.STATIC_ROOT)",
+        "peekOfCode": "websocket_urlpatterns = [\n    path(\"<str:serverId>/<str:channelId>\", WebChatConsumer.as_asgi())\n]\n# اضافه کردن مسیرهای استاتیک در حالت دیباگ\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,\n                          document_root=settings.MEDIA_ROOT)\n    urlpatterns += static(settings.STATIC_URL,\n                          document_root=settings.STATIC_ROOT)",
         "detail": "backend.urls",
         "documentation": {}
     },
@@ -1681,35 +1522,8 @@
         "kind": 6,
         "importPath": "server.filters.server",
         "description": "server.filters.server",
-        "peekOfCode": "class ServerFilter(FilterSet):\n    by_serverid = NumberFilter(field_name=\"id\")\n#     member_username_contains = NumberFilter(field_name=\"username\")(\n#     field_name=\"member__pk\", lookup_expr=\"icontains\"\n# )\n    class Meta:\n        model = Server\n        fields = {\n            \"category__name\": [\"exact\"],\n            \"member\": [\"icontains\"],",
+        "peekOfCode": "class ServerFilter(FilterSet):\n    \"\"\"\n    A filter class for filtering Server objects based on specific criteria.\n    Attributes:\n        by_serverid (NumberFilter): Filters servers by their ID.\n    Meta:\n        model (Server): The model to be filtered.\n        fields (dict): Dictionary of fields to be filtered and their lookup expressions.\n    \"\"\"\n    by_serverid = NumberFilter(field_name=\"id\")",
         "detail": "server.filters.server",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "server.migrations.0001_initial",
-        "description": "server.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Category\",\n            fields=[\n                (",
-        "detail": "server.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "server.migrations.0002_category_icon",
-        "description": "server.migrations.0002_category_icon",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"server\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"category\",\n            name=\"icon\",\n            field=models.FileField(blank=True, null=True, upload_to=\"\"),\n        ),",
-        "detail": "server.migrations.0002_category_icon",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "server.migrations.0003_channel_banner_channel_icon_alter_category_icon",
-        "description": "server.migrations.0003_channel_banner_channel_icon_alter_category_icon",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"server\", \"0002_category_icon\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"channel\",\n            name=\"banner\",\n            field=models.ImageField(\n                blank=True,",
-        "detail": "server.migrations.0003_channel_banner_channel_icon_alter_category_icon",
         "documentation": {}
     },
     {
@@ -1735,7 +1549,7 @@
         "kind": 6,
         "importPath": "server.serializers.server",
         "description": "server.serializers.server",
-        "peekOfCode": "class ServerSerializer(serializers.ModelSerializer):\n    num_members = serializers.SerializerMethodField()\n    category = serializers.StringRelatedField()\n    class Meta:\n        model = Server\n        exclude = [\"member\", ]\n    @extend_schema_field(serializers.IntegerField())\n    def get_num_members(self, obj):\n        if hasattr(obj, \"num_members\"):\n            return obj.num_members",
+        "peekOfCode": "class ServerSerializer(serializers.ModelSerializer):\n    \"\"\"\n    Serializer class for Server objects.\n    Attributes:\n        num_members (SerializerMethodField): A custom field to get the number of members.\n        category (StringRelatedField): A field to represent the category as a string.\n    Meta:\n        model (Server): The model that is being serialized.\n        exclude (list): List of fields to exclude from the serialization.\n    \"\"\"",
         "detail": "server.serializers.server",
         "documentation": {}
     },
@@ -1753,7 +1567,7 @@
         "kind": 6,
         "importPath": "server.model_mixins",
         "description": "server.model_mixins",
-        "peekOfCode": "class IconFileMixin(models.Model):\n    class Meta:\n        abstract = True\n    def delete_old_file(self, field_name, new_file):\n        if self.id:\n            existing = get_object_or_404(self.__class__, id=self.id)\n            old_file = getattr(existing, field_name)\n            if old_file != new_file:\n                old_file.delete(save=False)\n    def save(self, *args, **kwargs):",
+        "peekOfCode": "class IconFileMixin(models.Model):\n    \"\"\"\n    Mixin to manage icon files for a model.\n    Methods:\n        delete_old_file(field_name, new_file): Deletes the old file if it is different from the new file.\n        save(*args, **kwargs): Overrides the save method to delete the old file and convert the name to lowercase.\n    \"\"\"\n    class Meta:\n        abstract = True\n    def delete_old_file(self, field_name, new_file):",
         "detail": "server.model_mixins",
         "documentation": {}
     },
@@ -1816,7 +1630,7 @@
         "kind": 5,
         "importPath": "server.schema",
         "description": "server.schema",
-        "peekOfCode": "server_list_docs = extend_schema(\n    responses=ServerSerializer(many=True),\n    parameters=[\n        OpenApiParameter(\n            name=\"category\",\n            type=OpenApiTypes.STR,\n            location=OpenApiParameter.QUERY,\n            description=\"Category of servers to retrive\",\n        ),\n        OpenApiParameter(",
+        "peekOfCode": "server_list_docs = extend_schema(\n    responses=ServerSerializer(many=True),  # Serializer for the response\n    parameters=[\n        OpenApiParameter(\n            name=\"category\",\n            type=OpenApiTypes.STR,\n            location=OpenApiParameter.QUERY,\n            # Query parameter for server category\n            description=\"Category of servers to retrieve\",\n        ),",
         "detail": "server.schema",
         "documentation": {}
     },
@@ -1825,7 +1639,7 @@
         "kind": 2,
         "importPath": "server.validators",
         "description": "server.validators",
-        "peekOfCode": "def validate_icon_image_size(image):\n    if image:\n        with Image.open(image) as img:\n            if img.width > 70 or img.height > 70:\n                raise ValidationError(\n                    f\"The maximum allowed size is 70x70. Your size = {img.size}\"\n                )\ndef validate_image_file_extension(value):\n    ext = os.path.splitext(value.name)[1]\n    valid_extensions = ['.jpg', '.jpeg', '.png', '.gif']",
+        "peekOfCode": "def validate_icon_image_size(image):\n    \"\"\"\n    Validates the dimensions of an uploaded icon image.\n    Args:\n        image (File): The image file to validate.\n    Raises:\n        ValidationError: If the image dimensions exceed 70x70 pixels.\n    \"\"\"\n    if image:\n        with Image.open(image) as img:",
         "detail": "server.validators",
         "documentation": {}
     },
@@ -1834,7 +1648,7 @@
         "kind": 2,
         "importPath": "server.validators",
         "description": "server.validators",
-        "peekOfCode": "def validate_image_file_extension(value):\n    ext = os.path.splitext(value.name)[1]\n    valid_extensions = ['.jpg', '.jpeg', '.png', '.gif']\n    if not ext.lower() in valid_extensions:\n        raise ValidationError(\n            f\"Your extension must be one of {valid_extensions}, but got {ext}\")",
+        "peekOfCode": "def validate_image_file_extension(value):\n    \"\"\"\n    Validates the file extension of an uploaded image.\n    Args:\n        value (File): The image file to validate.\n    Raises:\n        ValidationError: If the image file extension is not one of the valid extensions.\n    \"\"\"\n    ext = os.path.splitext(value.name)[1]\n    valid_extensions = ['.jpg', '.jpeg', '.png', '.gif']",
         "detail": "server.validators",
         "documentation": {}
     },
@@ -1929,15 +1743,6 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "webchat.migrations.0001_initial",
-        "description": "webchat.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Conversation\",\n            fields=[\n                (",
-        "detail": "webchat.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
         "label": "MessageSerializer",
         "kind": 6,
         "importPath": "webchat.serializers.MessageSerializer",
@@ -1960,7 +1765,7 @@
         "kind": 6,
         "importPath": "webchat.consumer",
         "description": "webchat.consumer",
-        "peekOfCode": "class WebChatConsumer(JsonWebsocketConsumer):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.channel_id = None\n        self.user = None\n    def connect(self):\n        self.user = self.scope[\"user\"]\n        self.accept()\n        if not self.user.is_authenticated:\n            self.close(code=4001)",
+        "peekOfCode": "class WebChatConsumer(JsonWebsocketConsumer):\n    \"\"\"\n    WebSocket consumer class to handle real-time chat functionality.\n    Attributes:\n        channel_id (str): The ID of the chat channel.\n        user (User): The user connected to the WebSocket.\n    \"\"\"\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.channel_id = None",
         "detail": "webchat.consumer",
         "documentation": {}
     },
@@ -1969,7 +1774,7 @@
         "kind": 5,
         "importPath": "webchat.consumer",
         "description": "webchat.consumer",
-        "peekOfCode": "User = get_user_model()\nclass WebChatConsumer(JsonWebsocketConsumer):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.channel_id = None\n        self.user = None\n    def connect(self):\n        self.user = self.scope[\"user\"]\n        self.accept()\n        if not self.user.is_authenticated:",
+        "peekOfCode": "User = get_user_model()\nclass WebChatConsumer(JsonWebsocketConsumer):\n    \"\"\"\n    WebSocket consumer class to handle real-time chat functionality.\n    Attributes:\n        channel_id (str): The ID of the chat channel.\n        user (User): The user connected to the WebSocket.\n    \"\"\"\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)",
         "detail": "webchat.consumer",
         "documentation": {}
     },
@@ -1978,7 +1783,7 @@
         "kind": 6,
         "importPath": "webchat.middleware",
         "description": "webchat.middleware",
-        "peekOfCode": "class JWTAuthMiddleWare:\n    def __init__(self, app):\n        self.app = app\n    async def __call__(self, scope, recieve, send):\n        headers_dict = dict(scope[\"headers\"])\n        cookies_str = headers_dict.get(b\"cookie\", b\"\").decode()\n        cookies = {cookie.split(\"=\")[0]: cookie.split(\"=\")[1] for cookie in cookies_str.split(\"; \")}\n        access_token = cookies.get(\"access_token\")\n        scope[\"token\"] = access_token\n        scope[\"user\"] = await get_user(scope)",
+        "peekOfCode": "class JWTAuthMiddleWare:\n    \"\"\"\n    Custom middleware for JWT authentication in WebSocket connections.\n    This middleware extracts the JWT token from the cookies in the WebSocket scope,\n    authenticates the user, and attaches the user object to the scope.\n    \"\"\"\n    def __init__(self, app):\n        \"\"\"\n        Initializes the middleware with the ASGI application.\n        Args:",
         "detail": "webchat.middleware",
         "documentation": {}
     },
@@ -1987,7 +1792,7 @@
         "kind": 2,
         "importPath": "webchat.middleware",
         "description": "webchat.middleware",
-        "peekOfCode": "def get_user(scope):\n    token = scope[\"token\"]\n    model = get_user_model()\n    try:\n        if token:\n            user_id = jwt.decode(token, settings.SECRET_KEY, algorithms=[\"HS256\"])[\"user_id\"]\n            return model.objects.get(id=user_id)\n        else:\n            return AnonymousUser()\n    except (jwt.exceptions.DecodeError, model.DoesNotExist):",
+        "peekOfCode": "def get_user(scope):\n    \"\"\"\n    Retrieves the user based on the JWT token provided in the scope.\n    Args:\n        scope (dict): The scope dictionary containing connection information.\n    Returns:\n        User or AnonymousUser: The authenticated user object or AnonymousUser if authentication fails.\n    \"\"\"\n    token = scope[\"token\"]\n    model = get_user_model()",
         "detail": "webchat.middleware",
         "documentation": {}
     },

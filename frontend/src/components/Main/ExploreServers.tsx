@@ -19,25 +19,54 @@ import { useEffect } from "react";
 import { MEDIA_URL } from "../../config.ts";
 import { Link } from "react-router-dom";
 
+/**
+ * Interface representing a server.
+ */
 interface Server {
-  id: number;
-  name: string;
-  description: string;
-  icon: string;
-  category: string;
-  banner: string;
+  id: number;           // Unique identifier for the server
+  name: string;         // Name of the server
+  description: string;  // Description of the server
+  icon: string;         // URL to the server's icon
+  category: string;     // Category the server belongs to
+  banner: string;       // URL to the server's banner image
 }
 
-const ExploreServers = () => {
+/**
+ * Component to explore servers based on category.
+ *
+ * Uses URL parameters to determine the category and fetches server data accordingly.
+ *
+ * @returns {JSX.Element} The ExploreServers component.
+ */
+const ExploreServers = (): JSX.Element => {
+  // Extract category name from URL parameters
   const { categoryName } = useParams();
+  
+  // Construct URL based on category name
   const url = categoryName
     ? `/server/?category=${categoryName}`
     : "/server/";
+  
+  // Custom hook to handle CRUD operations and data fetching
   const { dataCRUD, fetchData } = useCrud<Server>([], url);
 
+  // Fetch data whenever categoryName changes
   useEffect(() => {
     fetchData();
   }, [categoryName]);
+
+  // Add your JSX here to render the server data
+  return (
+    // Example: Render the server names
+    <div>
+      {dataCRUD.map((server) => (
+        <div key={server.id}>{server.name}</div>
+      ))}
+    </div>
+  );
+}
+
+export default ExploreServers;
 
   return (
     <>
